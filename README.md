@@ -1,11 +1,36 @@
-<div align="center">
+# AVOCAD Footwear
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+This project is a futuristic, minimalist e-commerce landing page for AVOCAD Footwear.
 
-  <h1>Built with AI Studio</h2>
+## Deployment on Vercel
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+To deploy this project on Vercel, follow these steps:
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+1.  **Push to GitHub/GitLab/Bitbucket:** Ensure your code is in a Git repository.
+2.  **Import to Vercel:**
+    *   Go to [Vercel](https://vercel.com).
+    *   Click "Add New" -> "Project".
+    *   Import your repository.
+3.  **Configure Environment Variables:**
+    *   In the Vercel project settings, go to "Environment Variables".
+    *   Add `GEMINI_API_KEY` with your Gemini API key.
+4.  **Build Settings:**
+    *   Framework Preset: **Vite** (should be auto-detected).
+    *   Build Command: `npm run build`.
+    *   Output Directory: `dist`.
+5.  **Deploy:** Click "Deploy".
 
-</div>
+## Features
+
+-   **Futuristic Background:** Mesh gradients, noise texture, and animated blobs.
+-   **Glassmorphism:** Premium navbar and UI elements.
+-   **Responsive Design:** Optimized for all screen sizes.
+-   **Smooth Scrolling:** Anchor links for easy navigation.
+
+## Tech Stack
+
+-   React 19
+-   Vite
+-   Tailwind CSS 4
+-   Motion (framer-motion)
+-   Lucide React
